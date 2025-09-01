@@ -83,7 +83,7 @@ CONTEXT: [relevant context with timestamps if available]"""
                 "Content-Type": "application/json"
             },
             json={
-                "model": "llama3-8b-8192",  # Fast and cost-effective model
+                "model": "llama-3.1-8b-instant",  # Fast and cost-effective model
                 "messages": [
                     {
                         "role": "user",
